@@ -1,11 +1,8 @@
-// angular.module('ToDoController', function(){
-//   var todo = this;
-//   todo = [
-//     {text: "ToDo1"}
-//   ]
-// });
-
 toDoApp.controller('ToDoController', function() {
-  this.todo = "ToDo1";
+  this.todos = [
+    {task: "learn more angular", completed:false},
+    {task: "learn more ruby", completed:true},
+    {task: "learn more rails", completed:false}
+  ];
 });
 
